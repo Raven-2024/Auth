@@ -1,0 +1,85 @@
+/* Login.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-form {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: #fff8f0;
+    box-shadow: 0 4px 8px rgba(255, 165, 0, 0.3);
+  }
+  
+  .login-form h1 {
+    color: orange;
+    text-align: center;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+
+
+  }
+  
+  .input:focus {
+    border-color: darkorange;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
+  }
+  
+  .btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: darkorange;
+    transform: scale(1.02);
+  }
+  
+  .register-btn, .login-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .register-btn:hover {
+    background-color: orange;
+    color: white;
+  }
+  .login-btn:hover {
+    background-color: orange;
+    color: white;
+  }
+  
+  
+  
+  h3 {
+    text-align: center;
+    color: #555;
+  }
+  
