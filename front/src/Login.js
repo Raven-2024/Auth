@@ -61,7 +61,7 @@ function Login() {
 
           <div > 
           <h3>You don't have an account yet</h3>
-          <button className="register-btn" onClick={() => navigate("/register-user")}>
+          <button className="register-btn" onClick={() => navigate("/show-contact")}>
             <span>Sign Up</span>
           </button>
           </div>

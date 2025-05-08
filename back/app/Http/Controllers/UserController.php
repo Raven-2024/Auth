@@ -38,15 +38,6 @@ class UserController extends Controller
         $request->user()->currentAccessToken()->delete();
         return response()->json(['message' => 'Logged out']);
     }
-    
-    public function show()
-    {
-        $user = User::all();
-        return response()->json([
-            'list_of_user' => $user,
-            'status' => 200,
-            'message' => "Success"
-        ]);
-    }
+   
     
 }

@@ -4,6 +4,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ContactController;
+
 
 
 Route::get('/user', function (Request $request) {
@@ -12,9 +14,9 @@ Route::get('/user', function (Request $request) {
 
 
 
-Route::get('/fetch-user', [UserController::class, 'show']);
+Route::get('/fetch-contact', [ContactController::class, 'showContact']);   
 
-//
+
 Route::post('/register-user', [UserController::class, 'register']);
 Route::post('/login', [UserController::class, 'login']);
 
